@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo2.png">
+    <title>Elagos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <!-- Logo -->
+            <a href="index.html" class="logo">
+                <img src="logo2.png" alt="Logo" class="logo-image" />
+                <span class="logo-text">Elagos</span>
+            </a>
+
+            <!-- Navigation Links -->
+            <div class="nav-links">
+                <a href="/features" class="nav-link">
+                    Features
+                </a>
+                <a href="/candidates" class="nav-link">
+                    Candidates
+                </a>
+                <a href="/collaboration" class="nav-link">
+                    Collaboration
+                </a>
+                <a href="/jobposting" class="nav-link">
+                    Job Posting
+                </a>
+                <a href="/contact" class="nav-link">
+                    Contact
+                </a>
+            </div>
+
+            <!-- Login and Register -->
+            <div class="login-register">
+                <a href="login.html" class="login-link">
+                    Login
+                </a>
+                <a href="register.html" class="register-link">
+                    Register
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Candidate Search Section -->
+    <div class="container">
+        <h2>Candidate Search</h2>
+        <div class="search-section">
+            <input type="text" id="locationInput" placeholder="Enter location" />
+            <input type="text" id="jobRoleInput" placeholder="Enter job role" />
+            <button id="searchButton">Search</button>
+        </div>
+        <div class="candidate-list" id="candidateList"></div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer-container">
+        <div class="footer-column">
+            <h4 class="footer-heading">Company</h4>
+            <ul class="footer-list">
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li>Careers</li>
+                <li>Terms of Service</li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4 class="footer-heading">Resources</h4>
+            <ul class="footer-list">
+                <li>FAQ</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4 class="footer-heading">Connect With Us</h4>
+            <ul class="footer-list">
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>LinkedIn</li>
+                <li>Instagram</li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4 class="footer-heading">Subscribe to Our Newsletter</h4>
+            <form class="footer-form">
+                <input type="email" placeholder="Enter your email" class="footer-input" />
+                <button type="submit" class="footer-button">Subscribe</button>
+            </form>
+        </div>
+    </footer>
+
+    <div class="footer-bottom-line">
+        <p class="rights-reserved">© 2023 Elagos. All rights reserved.</p>
+    </div>
+
+    <script src="index.js" charset="UTF-8"></script>
+
+</body>
+
+</html>
