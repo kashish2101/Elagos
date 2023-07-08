@@ -1,5 +1,4 @@
-# Swift-Hire
-https://github.com/DivyanshiSharma07/Elagos/assets/127393402/1579ab84-d693-4e2c-ace7-1605ebe06b23
+
 
 
 Elagos is an innovative digital recruitment solution app aimed at revolutionizing the hiring process for multiple MNCs (Multi-National Companies). With its stunning animations and dynamic sliders, Elagos delivers an exceptional and visually captivating user experience.
